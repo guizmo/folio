@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'DejaVuSansMonoBold';
+    src: url('fonts/dejavusansmono-bold-webfont.eot');
+    src: url('fonts/dejavusansmono-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dejavusansmono-bold-webfont.woff') format('woff'),
+         url('fonts/dejavusansmono-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVuSansMonoBook';
+    src: url('fonts/dejavusansmono-webfont.eot');
+    src: url('fonts/dejavusansmono-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dejavusansmono-webfont.woff') format('woff'),
+         url('fonts/dejavusansmono-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+	font-family: 'DejaVuSansMonoBook';
+	font-size: 16px;
+	line-height: 19px;
+	color: #fff;
+	background-color: #181818;
+	position: relative;
+}
+
+a:link,
+a:visited{
+	text-decoration: none;
+	color: #0874ac;
+}
+
+a:hover{
+	color: yellow;
+}
+
+#tempimg{
+	width: 100%;
+}
+
+header{
+	overflow-y: hidden;
+	
+}
+
+header pre{
+	padding: 0;
+}
+
+#logo{
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	background:  url('../images/logo.png') no-repeat center top;
+	-webkit-background-clip: text,border;
+	-moz-background-clip: text,border;
+	-webkit-font-smoothing: subpixel-antialiased;
+	color: transparent;
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	background-size: 100%;
+	
+}
+
+.firefox xmp {
+	white-space: pre-wrap; /* css-3 */
+	white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+	white-space: -pre-wrap; /* Opera 4-6 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+/*-----------------------------------------------------------------------------------*/
+header{
+	padding-bottom: 90px;
+}
+
+#menu #info{
+	float: left;
+	max-width: 450px;
+}
+
+#info h1{
+	margin-bottom: 19px;
+}
+
+#menu nav{
+	float: right;
+	padding-top: 38px;
+}
+
+#commandes{
+	font-size: 12px;
+	line-height: 15px;
+	right: 50%;
+	position: absolute;
+	bottom: -70px;
+}
+
+#commandes .outer{
+	right: -50%;
+	position: relative;
+}
+
+#commandes .inner{
+	max-width: 630px;
+	padding: 1.4em;
+	border: 1px solid #363636;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
+}
+
+#commandes p{
+	float: left;
+	margin-right: 1.9em;
+}
+
+#commandes p.close{
+	margin-right: 0;
+}
+
+#commandes p span{
+	padding: 0.3em 0.7em;
+	border: 1px solid #363636;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 10px;
+	position: relative;
+}
+
+#page section{
+	background-color: yellow;
+	height: 500px;
+}
